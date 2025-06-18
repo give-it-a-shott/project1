@@ -1,6 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightslategray;
+}
 #root {
   margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
   max-width: 1280px;
-  padding: 2rem;
+  height: 100vh;
+  border: 2px solid red;
+  background-color: white;
+}
+
+/* topbar 부분 */
+div.top {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  border: 2px solid blue;
+}
+h1.title {
+  flex-grow: 2;
   text-align: center;
+}
+h3.timer {
+  flex-grow: 1;
+  text-align: center;
+}
+h2.logo {
+  flex-grow: 1;
+  text-align: center;
+}
+/* 메인 */
+div.main {
+  display: flex;
+  height: 80vh;
+}
+div.main > div.quiz {
+  flex-grow: 4;
+  text-align: center;
+}
+.passage {
+  margin: 10px 20px;
+  border: 2px black solid;
+}
+.form-box {
+  width: 60vw;
+
+  margin: 0 auto;
+  text-align: left;
+}
+/* 사이드 */
+div.main > div.side {
+  flex-grow: 1;
+  font-size: 1rem;
+  text-align: center;
+  overflow: auto;
+  border: solid black 2px;
+}
+.number {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  border: 1px black solid;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+/* 하단 부분 */
+div.bottom {
+  display: flex;
+  gap: 20px;
+  height: 9.5vh;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid purple;
+}
+div.bottom > button {
+  font-size: 2rem;
 }

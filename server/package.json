@@ -1,0 +1,22 @@
+{
+  "name": "first-web",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app"
+  },
+  "author": "give-it-a-shot",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

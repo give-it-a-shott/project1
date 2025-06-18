@@ -28,3 +28,5 @@ README.md
 vite.config.js
 package-lock.json
 eslint.config.js
+
+/server/config
